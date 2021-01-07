@@ -10,8 +10,8 @@ import {
     NavMenu, 
     NavItem, 
     NavLinks,
-    NavBtn,
-    NavBtnLink
+    // NavBtn,
+    // NavBtnLink
     } from './NavbarElements'
 
 const Navbar = ({toggle}) => {
@@ -64,11 +64,11 @@ const Navbar = ({toggle}) => {
                         >Contact Us</NavLinks>
                     </NavItem>
                 </NavMenu>
-                <NavBtn>
+                {/* <NavBtn>
                     <NavBtnLink to="/signin" 
                     smooth={true} duration={500} spy={true} exact='true' offset={-80}
                     >Sign In</NavBtnLink>
-                </NavBtn>
+                </NavBtn> */}
             </NavbarContainer>
         </Nav>
         </IconContext.Provider>

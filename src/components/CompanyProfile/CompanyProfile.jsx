@@ -1,11 +1,14 @@
 import React from 'react'
+import { Container } from './CompanyElement'
 
-const IndexComp = () => {
+const SignIn = () => {
     return (
-        <div>
-            <h1>Company Profile</h1>
-        </div>
+        <>
+           <Container>
+               <h1>Company Profile</h1>
+            </Container> 
+        </>
     )
 }
 
-export default IndexComp
+export default SignIn
