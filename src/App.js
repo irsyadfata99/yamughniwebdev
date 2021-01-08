@@ -3,7 +3,7 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './pages/IndexPages';
 import SigninPage from './pages/Signin';
-import CompanyP from './components/CompanyProfile/CompanyProfile';
+import CompanyP from './pages/CompanyProfile';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/Signin" component={SigninPage} exact />
-        <Route path="/CompanyProfile" component={CompanyP} exact />
+        <Route path="/CompanyProfile" component={CompanyP} exact/>
       </Switch>
     </Router>
   );

@@ -1,14 +1,12 @@
 import React from 'react'
-import { Container } from './CompanyElement'
 
-const SignIn = () => {
+
+const CompanyProfile = () => {
     return (
         <>
-           <Container>
-               <h1>Company Profile</h1>
-            </Container> 
+            <h1>Company Profile</h1>
         </>
     )
 }
 
-export default SignIn
+export default CompanyProfile
