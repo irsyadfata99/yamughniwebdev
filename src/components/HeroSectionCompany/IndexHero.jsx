@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import Video from '../../videos/building.mp4'
 import {Button} from '../ButtonElement'
+import img from '../../images/hero-building.svg'
 import {
     HeroContainer, 
-    HeroBg, 
-    VideoBg,
+    HeroBg,
+    Img, 
     HeroContent, 
     HeroH1, 
     HeroP, 
@@ -24,7 +24,7 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='building/mp4' />
+            <Img src={img} alt="building"/>
             </HeroBg>
             <HeroContent>
                 <HeroH1>Yamughni Corporate</HeroH1>

@@ -37,12 +37,16 @@ export const HeroBg = styled.div`
     overflow: hidden;
 `
 
-export const VideoBg = styled.video`
+export const Img = styled.img`
+    height: 100vh;
     width: 100%;
-    height: 100%;
-    --o-object-fit: cover;
-    object-fit: cover;
-    background: #232a34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+
 `
 
 export const HeroContent = styled.div`

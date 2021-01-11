@@ -1,17 +1,17 @@
 export const homeObjOne = {
     id: 'about',
-    lightBg: true,
-    lightText: true,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: false,
+    lightTextDesc: true,
     topLine: 'Yamughni',
     headLine: 'Koperasi Organik',
     description: 'fill this form.',
     buttonLabel: 'Pelajari Lebih Lanjut',
     imgStart: false,
     alt:'office',
-    dark: false,
-    primary: false,
-    darkText: true
+    dark: true,
+    primary: true,
+    darkText: false
 }
 export const homeObjTwo = {
     id: 'division',

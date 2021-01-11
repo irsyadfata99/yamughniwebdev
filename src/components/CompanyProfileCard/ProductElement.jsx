@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const DivisionContainter =styled.div`
+export const ProductContainter =styled.div`
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ export const DivisionContainter =styled.div`
     }
 `
 
-export const DivisionWrapper = styled.div`
+export const ProductWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
@@ -36,7 +36,7 @@ export const DivisionWrapper = styled.div`
     }
 `
 
-export const DivisionCard =  styled.div`
+export const ProductCard =  styled.div`
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -55,13 +55,13 @@ export const DivisionCard =  styled.div`
     }
 `
 
-export const DivisionIcon = styled.img`
+export const ProductIcon = styled.img`
     height: 160px;
     width: 160px;
     margin-bottom: 10px;
 `
 
-export const DivisionH1 = styled.h1`
+export const ProductH1 = styled.h1`
     font-size: 2.5rem;
     color: #010606;
     margin-bottom: 64px;
@@ -71,12 +71,12 @@ export const DivisionH1 = styled.h1`
     }
 `
 
-export const DivisionH2 = styled.h2`
+export const ProductH2 = styled.h2`
     font-size: 1rem;
     margin-bottom: 10px;
 `
 
-export const DivisionP1 = styled.p`
+export const ProductP1 = styled.p`
     font-size: 1rem;
     text-align: center;
 `

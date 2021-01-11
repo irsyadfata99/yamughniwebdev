@@ -29,7 +29,7 @@ const Footer = () => {
                     <FooterLinkWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About Us </FooterLinkTitle>
-                                <FooterLink to="/CompanyProfile">Company Profile </FooterLink>
+                                <FooterLink to="/CompanyProfile" onClick={toggleHome}>Company Profile </FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Division </FooterLinkTitle>
