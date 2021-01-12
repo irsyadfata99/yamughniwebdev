@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button} from '../ButtonElement'
+// import {Button} from '../ButtonElement'
 import img from '../../images/office.svg'
 import {
     AboutContainer, 
@@ -11,7 +11,7 @@ import {
     TopLine, 
     Heading, 
     Subtitle, 
-    BtnWrap, 
+    // BtnWrap, 
     ImgWrap,
     Img 
     } from './AboutUsElement'
@@ -25,7 +25,9 @@ const AboutUs = ({
     headLine,
     darkText,
     description,
-    buttonLabel,
+    description1,
+    description2,
+    // buttonLabel,
     alt,
 
 }) => {
@@ -39,9 +41,11 @@ const AboutUs = ({
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headLine}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
-                            <BtnWrap>
-                                <Button to="home">{buttonLabel}</Button>
-                            </BtnWrap>
+                            <Subtitle darkText={darkText}>{description1}</Subtitle>
+                            <Subtitle darkText={darkText}>{description2}</Subtitle>
+                            {/* <BtnWrap>
+                                <Button to="/CompanyProfile">{buttonLabel}</Button>
+                            </BtnWrap> */}
                         </TextWrapper>
                         </Column1>
                         <Column2>
