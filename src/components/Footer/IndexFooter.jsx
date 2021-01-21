@@ -33,20 +33,20 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Division </FooterLinkTitle>
-                                <FooterLink to="/">Beegency </FooterLink>
-                                <FooterLink to="/">Cullinary </FooterLink>
-                                <FooterLink to="/">PnR </FooterLink>
-                                <FooterLink to="/">Tour and Travel </FooterLink>
-                                <FooterLink to="/">Yamughni Store </FooterLink>
+                                <FooterLink to="/" target="_blank">Beegency </FooterLink>
+                                <FooterLink to="/" target="_blank">Cullinary </FooterLink>
+                                <FooterLink to="/" target="_blank">PnR </FooterLink>
+                                <FooterLink to="/" target="_blank">Tour and Travel </FooterLink>
+                                <FooterLink to="/" target="_blank">Yamughni Store </FooterLink>
                         </FooterLinkItems>
                     </FooterLinkWrapper>
                     <FooterLinkWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Product </FooterLinkTitle>
-                                <FooterLinkdir href="https://www.yamughnibandung.org/store/hammayim">Hammayim</FooterLinkdir>
-                                <FooterLinkdir href="https://www.yamughnibandung.org/store/habbatussauda">Habbatussauda JMD</FooterLinkdir>
-                                <FooterLink to="/">Sheva </FooterLink>
-                                <FooterLink to="/">YFC </FooterLink>
+                                <FooterLinkdir href="https://www.yamughnibandung.org/store/hammayim" target="_blank">Hammayim</FooterLinkdir>
+                                <FooterLinkdir href="https://www.yamughnibandung.org/store/habbatussauda" target="_blank">Habbatussauda JMD</FooterLinkdir>
+                                <FooterLink to="/" target="_blank">Sheva </FooterLink>
+                                <FooterLink to="/" target="_blank">YFC </FooterLink>
                         </FooterLinkItems>
                     </FooterLinkWrapper>
                 </FooterLinkContainer>
@@ -58,9 +58,9 @@ const Footer = () => {
                         <WebsiteRight>Beegency © 2020 All rights reserved</WebsiteRight>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank" aria-label="Facebook"><FaFacebook /></SocialIconLink>
+                            <SocialIconLink href="/" target="_blank" aria-label="Linkedin"><FaLinkedin /></SocialIconLink>
                             <SocialIconLink href="/" target="_blank" aria-label="Instagram"><FaInstagram /></SocialIconLink>
                             <SocialIconLink href="/" target="_blank" aria-label="Youtube"><FaYoutube /></SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="Linkedin"><FaLinkedin /></SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
