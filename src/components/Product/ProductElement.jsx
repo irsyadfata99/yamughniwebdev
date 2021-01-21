@@ -63,7 +63,7 @@ export const ProductIcon = styled.img`
 
 export const ProductH1 = styled.h1`
     font-size: 2.5rem;
-    color: #fff;
+    color: #d11414;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {

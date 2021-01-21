@@ -63,7 +63,7 @@ export const DivisionIcon = styled.img`
 
 export const DivisionH1 = styled.h1`
     font-size: 2.5rem;
-    color: #010606;
+    color: #d11414;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {

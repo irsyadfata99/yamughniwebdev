@@ -1,8 +1,8 @@
 import React from 'react'
 import Icon1 from '../../images/office.svg'
-import Icon2 from '../../images/tour-n-travel.svg'
+import Icon2 from '../../images/sandang-pangan.svg'
 import Icon3 from '../../images/kuliner.svg'
-import Icon4 from '../../images/sandang-pangan.svg'
+import Icon4 from '../../images/tour-n-travel.svg'
 import Icon5 from '../../images/pnr.svg'
 import {DivisionContainter, 
     DivisionCard, 
@@ -24,7 +24,7 @@ const division = () => {
                 </DivisionCard>
                 <DivisionCard>
                     <DivisionIcon src={Icon2} />
-                    <DivisionH2>Tour and Travel</DivisionH2>
+                    <DivisionH2>Storage Division</DivisionH2>
                     <DivisionP1>Division available right now</DivisionP1>
                 </DivisionCard>
                 <DivisionCard>
@@ -34,12 +34,17 @@ const division = () => {
                 </DivisionCard>
                 <DivisionCard>
                     <DivisionIcon src={Icon4} />
-                    <DivisionH2>Storage Unit</DivisionH2>
+                    <DivisionH2>Tour and Travel</DivisionH2>
                     <DivisionP1>Division available right now</DivisionP1>
                 </DivisionCard>
                 <DivisionCard>
                     <DivisionIcon src={Icon5} />
                     <DivisionH2>Pnr</DivisionH2>
+                    <DivisionP1>Division available right now</DivisionP1>
+                </DivisionCard>
+                <DivisionCard>
+                    <DivisionIcon src={Icon5} />
+                    <DivisionH2>Property</DivisionH2>
                     <DivisionP1>Division available right now</DivisionP1>
                 </DivisionCard>
             </DivisionWrapper>
