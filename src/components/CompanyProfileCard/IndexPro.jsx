@@ -46,8 +46,8 @@ const product = () => {
                     <ProductH2>Endar Winarsih</ProductH2>
                     <ProductP1>Accounting</ProductP1>
                 </ProductCard>
-            </ProductWrapper>
-            <ProductWrapper>
+            {/* </ProductWrapper> */}
+            {/* <ProductWrapper> */}
                 <ProductCard>
                     <ProductIcon src={Icon6} />
                     <ProductH2>Deni Sulaeman</ProductH2>

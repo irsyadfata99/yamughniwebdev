@@ -1,12 +1,10 @@
 import React, {useState, useEffect} from 'react'
-import {FaBars} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import {animateScroll as scroll} from 'react-scroll'
 import {
     Nav, 
     NavbarContainer, 
     NavLogo, 
-    MobileIcon, 
     // NavBtn,
     // NavBtnLink
     } from './NavbarElements'
@@ -36,9 +34,6 @@ const Navbar = ({toggle}) => {
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
                 <NavLogo to="/" onClick= {toggleHome}>Yamughni</NavLogo>
-                <MobileIcon onClick={toggle}>
-                    <FaBars />
-                </MobileIcon>
                 {/* <NavBtn>
                     <NavBtnLink to="/signin" 
                     smooth={true} duration={500} spy={true} exact='true' offset={-80}

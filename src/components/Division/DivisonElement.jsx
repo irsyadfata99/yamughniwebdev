@@ -8,12 +8,16 @@ export const DivisionContainter =styled.div`
     align-items: center;
     background: #fff;
 
+    @media screen and (max-width: 1000px) {
+        height: 900px;
+    }
+
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: 1200px;
     }
 
     @media screen and (max-width: 480px) {
-        height: 1300px;
+        height: 2000px;
     }
 `
 
@@ -27,12 +31,17 @@ export const DivisionWrapper = styled.div`
     padding 0 50px;
 
     @media screen and (max-width: 1000px) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 10px;
+    }
+
+    @media screen and (max-width: 480px) {
         grid-template-columns: 1fr;
-        padding: 0 20px;
+        padding: 0 10px;
     }
 `
 

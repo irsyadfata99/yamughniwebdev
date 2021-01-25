@@ -1,38 +1,47 @@
 import styled from 'styled-components'
 
 export const ProductContainter =styled.div`
-    height: 800px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #fff;
 
+    @media screen and (max-width: 1000px) {
+        height: 1200px;
+    }
+
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: 1700px;
     }
 
     @media screen and (max-width: 480px) {
-        height: 1300px;
+        height: 3000px;
     }
 `
 
 export const ProductWrapper = styled.div`
-    max-width: 1300px;
-    margin: 0 auto;
+    max-width: auto;
+    margin: 0 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 16px;
-    padding 0 50px;
+    padding 0 10px;
 
     @media screen and (max-width: 1000px) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 10px;
+    }
+
+    @media screen and (max-width: 480px) {
         grid-template-columns: 1fr;
-        padding: 0 20px;
+        padding: 0 10px;
     }
 `
 
@@ -47,6 +56,7 @@ export const ProductCard =  styled.div`
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
+    border : 1px solid red;
 
     &:hover {
         transform: scale(1.02);
