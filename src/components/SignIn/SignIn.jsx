@@ -18,7 +18,7 @@ const SignIn = () => {
                <FormWrap>
                   <Icon to="/">Yamughni</Icon>
                   <FormContent>
-                     <Form action="#">
+                     <Form action="/CompanyProfile">
                          <FormH1>Sign in To your Account</FormH1>
                          <FormLabel htmlFor='for'>Email</FormLabel>
                          <FormInput type='email' required />

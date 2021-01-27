@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon1 from '../../images/office.svg'
 import Icon2 from '../../images/tour-n-travel.svg'
-import Icon3 from '../../images/kuliner.svg'
+import Icon3 from '../../images/YFC.svg'
 import Icon4 from '../../images/sandang-pangan.svg'
 import {ProductContainter, 
     ProductCard, 
