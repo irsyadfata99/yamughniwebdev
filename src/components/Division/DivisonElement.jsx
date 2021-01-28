@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const DivisionContainter =styled.div`
-    height: 800px;
+    height: 850px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +65,7 @@ export const DivisionCard =  styled.div`
 `
 
 export const DivisionIcon = styled.img`
-    height: 160px;
+    height: 200px;
     width: 160px;
     margin-bottom: 10px;
 `

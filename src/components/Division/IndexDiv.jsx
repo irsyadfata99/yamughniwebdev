@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon1 from '../../images/office.svg'
-import Icon2 from '../../images/sandang-pangan.svg'
-import Icon3 from '../../images/kuliner.svg'
+import Icon1 from '../../images/beegency1.png'
+import Icon2 from '../../images/yamughni1.png'
+import Icon3 from '../../images/KULINER1.png'
 import Icon4 from '../../images/tour-n-travel.svg'
 import Icon5 from '../../images/pnr.svg'
 import {DivisionContainter, 
