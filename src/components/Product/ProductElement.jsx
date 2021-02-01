@@ -13,11 +13,11 @@ export const ProductContainter =styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        height: 1000px;
+        height: 1400px;
     }
 
     @media screen and (max-width: 480px) {
-        height: 1500px;
+        height: 1700px;
     }
 `
 

@@ -13,11 +13,11 @@ export const DivisionContainter =styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        height: 1200px;
+        height: 1400px;
     }
 
     @media screen and (max-width: 480px) {
-        height: 2000px;
+        height: 2400px;
     }
 `
 
